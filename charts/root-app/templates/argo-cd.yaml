@@ -5,6 +5,7 @@ metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
+  replica: 3
   project: default
   source:
     repoURL: https://github.com/vikchallenge/argocd-helm.git
